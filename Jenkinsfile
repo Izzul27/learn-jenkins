@@ -15,12 +15,12 @@ pipeline {
         }
 
         stage('Deploy') {
-            steps {
-                sh '''
-                mkdir -p /var/www/laravel
-                cp -r * /var/www/laravel
-                '''
-            }
-        }
+    steps {
+        sh '''
+        mkdir -p /var/jenkins_home/deploy
+        cp -r * /var/jenkins_home/deploy
+        '''
+    }
+}
     }
 }
