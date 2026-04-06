@@ -3,10 +3,10 @@ pipeline {
 
     stages {
         stage('Clone') {
-            steps {
-                git 'https://github.com/Izzul27/learn-jenkins.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/Izzul27/learn-jenkins.git'
+    }
+}
 
         stage('Build') {
             steps {
