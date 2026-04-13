@@ -6,7 +6,7 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-	<h1>Deploy Jenkins Berhasil !!!! 🚀</h1>
+	<h1>Deploy Jenkins Berhasil 1234🚀</h1>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
